@@ -1,0 +1,8 @@
+@startuml myname
+2BWatchOwner -- 2BWatchInput
+2BWatchInput -- 2BWatchDisplay
+2BWatchInput -- 2BWatchTime
+2BWatchTime -- 2BWatchDisplay
+@enduml
+
+
