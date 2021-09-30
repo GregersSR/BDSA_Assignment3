@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
+// Dummy change to make tests run
+
 namespace BDSA2021.Assignment03
 {
     public class Queries
