@@ -24,7 +24,7 @@ namespace BDSA2021.Assignment03.Tests
         [InlineData("Harry Potter","Harry Potter and the Philosopher's Stone",1997,"J.K. Rowling")]
         [InlineData("Albus Dumbledore","Harry Potter and the Philosopher's Stone",1997,"J.K. Rowling")]
         [InlineData("Sirius Black","Harry Potter and the Prisoner of Azkaban",1999,"J.K. Rowling")]
-        [InlineData("Hermione Granger","Harry Potter and the Philosopher's Stone",1997,"J.K. Rowling")]
+        [InlineData("Harry Potter","Harry Potter and the Prisoner of Azkaban",1999,"J.K. Rowling")]
         public void Spot_check_wizards(string name, string medium, int year, string creator)
         {
             var wizards = Wizard.Wizards.Value;
